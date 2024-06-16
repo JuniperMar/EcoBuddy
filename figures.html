@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EcoBuddy</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Import Raleway font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="navigating">   
+    <a class="logo" href="index.html"><b>EcoBuddy</b></a>
+    <nav class='Links'>
+      <a href="index.html">Home</a>
+      <a href="figures.html">Figures</a>
+      <div class="dropdown">
+        <button class="dropbtn">Countries</button>
+        <div class="dropdown-content">
+        <a href="australia.html">Australia</a>
+        <a href="germany.html">Germany</a>
+        <a href="morocco.html">Morocco</a>
+        <a href="usa.html">USA</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  
+  <br><br><br><br>
+  <div class="main">
+    <h1 class="typer">Data Visualizations</h1>
+    <hr class="line">
+    <p>Below are a few data visualizations depicting how different countries are effected by climate change and also how they contribute to the issue.</p>
+    <h2>How the Impacts of Climate Change Differ Based on the Country</h2>
+    <p>This dataset is from a website called <a
+      href="https://data.world/datasets/open-data"><b>data.world</b></a>, an open-sourced, free platform to find datasets to research. Specifically, I chose a dataset titled <a
+      href="https://data.world/gpsdd/e1dcef1d-b9ca-4c22-8b78-f7b6703d2274"><b>Climate Risk Index</b></a>.</p>
+    
+    <br>
+    
+    <blockquote class="blockquote blockquote--bordered blockquote--quoted" >
+      <p class="blockquote__text">
+        The Global Climate Risk Index identifies the extent to which countries have been affected by extreme weather events. These can be meteorological events such as tropical storms or tornados, hydrological events such as storm surges or flash floods, or climatological events such as wildfires or droughts. The index scores are derived from country’s rankings within the following indicators, and averaged with according to their weighting: 1. Number of deaths – Weight: 1/6; 2. Number of deaths per 100,000 inhabitants – Weight: 1/3; 3. Sum of losses in US$ in purchasing power parity (PPP) – Weight: 1/6; 4. Losses per unit of Gross Domestic Product (GDP) – Weight: 1/3; Lower index scores indicate countries with higher risk. Countries with high ranks in each category (low numbers) add up to low index values. The Global Climate Risk Index has been calculated for impact in 2017 and separately for the annual average impact from the past 2 decades (1998-2017).
+      </p>
+      <p class='blockquote__text blockquote__text--credit'>data.world</p>
+    </blockquote>
+    
+    <br><br>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/top25.png" alt="Top 25 Countries at Risk" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/bottom25.png" alt="Bottom 25 Countries at Risk" style="width:100%">
+      </div>
+    </div>
+
+    <br><br>
+
+    <img class='countryRank' src="images/countryRank.png" alt="Country Rank">
+    
+    <br><br>
+
+    <h2>Big Contributers vs Small Contributers</h2>
+    <p>The dataset used here is from <a
+      href="https://www.kaggle.com/datasets/hafeezabro/greenhouse-gas-emissions-worldwidecsv"><b>Kaggle</b></a>.</p>
+
+    <br>
+
+    <blockquote class="blockquote blockquote--bordered blockquote--quoted" >
+      <p class="blockquote__text">
+        The Greenhouse Gas (GHG) Inventory Data contains the most recently submitted information, covering the period from 1990 to the latest available year, to the extent the data have been provided. The GHG data contain information on anthropogenic emissions by sources and removals by sinks of the following GHGs (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), unspecified mix of HFCs and PFCs, sulphur hexafluoride (SF6) and nitrogen triflouride (NF3)) that are not controlled by the Montreal Protocol.<br><br>
+        GHG emission inventories are developed by Parties to the Convention using scientific and methodological guidance from the Intergovernmental Panel on Climate Change (IPCC), such as 2006 IPCC Guidelines for National Greenhouse Gas Inventories, Revised Guidelines for National Greenhouse Gas Inventories (1996), IPCC Good Practice Guidance and Uncertainty Management in National Greenhouse Gas Inventories (2000) and IPCC Good Practice Guidance on Land Use, Land-use Change and Forestry (2003) and 2013 Supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands.
+      </p>
+      <p class='blockquote__text blockquote__text--credit'>Kaggle</p>
+    </blockquote>
+    
+    <br><br>
+    
+    <div class="row">
+      <div class="column">
+        <img src="images/CO2.png"
+          alt="Developed countries vs. CO2 emissions in Gigagrams"
+          title="Developed countries vs. CO2 emissions in Gigagrams" width="500px">
+      </div>
+      <div class="column">
+        <img src="images/HFC.png"
+          alt="Developed countries vs. HFC emissions in Gigagrams"
+          title="Developed countries vs. HFC emissions in Gigagrams" width="500px">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/Methane.png"
+          alt="Developed countries vs. Methane emissions in Gigagrams"
+          title="Developed countries vs. Methane emissions in Gigagrams" width="500px">
+      </div>
+      <div class="column">
+        <img src="images/PFC.png"
+          alt="Most Popular Sectors and Fuel Types in the United States of America"
+          title="Most Popular Sectors and Fuel Types in the United States of America" width="500px">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/SF6.png"
+          alt="Developed countries vs. SF6 emissions in Gigagrams"
+          title="Developed countries vs. SF6 emissions in Gigagrams" width="500px">
+      </div>
+      <div class="column">
+        <img src="images/N20.png"
+          alt="Developed countries vs. N20 emissions in Gigagrams"
+          title="Developed countries vs. N20 emissions in Gigagrams" width="500px">
+      </div>
+    </div>
+    
+    <br><br>
+  </div>
+
+</body>
+
+</html>
