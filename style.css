@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #cbdfbf;
+  box-sizing: border-box; 
+  outline: none; 
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 28px;
+  text-decoration-line: none;
+  color: #2c4e30;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+nav {
+  background-color: #cbdfbf;
+  text-align: right;
+  align-content: right;
+  float: right;
+  margin-left: 800px;
+  margin-top: -20px;
+}
+
+nav a {
+	color: #2c4e30;
+	text-decoration: none;
+	font-size: 18px;
+  padding: 5px;
+  margin: 0px 15px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 0px;
+}
+
+nav a:hover {
+	background-color: #2c4e30;
+  color: #fffffe;
+  left: 0;
+  margin-top: 0px;
+}
+
+.navigating {
+	width: 100%;
+	background-color: #cbdfbf;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+	display: flex;
+	flex-wrap: wrap;
+  align-content: center;
+  position: fixed;
+  margin-top: 0px;
+}
+
+/* How to make a dropdown menu: https://www.w3schools.com/css/css_dropdowns.asp */
+.dropbtn {
+  background-color: #cbdfbf;
+  color: #2c4e30;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0px 15px;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #cbdfbf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: #cbdfbf;
+  color: #2c4e30;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #cbdfbf}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2c4e30;
+  color: white;
+  left: 0;
+}
+
+/* After Nav*/
+.headerImg {
+  width: 100%;
+  opacity: 1;
+}
+
+.titlestart {
+  width: 100%;
+  background-image: url("./images/green-trees-in-forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  border-radius: 25px;
+  padding-bottom: 50px;
+}
+
+.title {
+  color: white; 
+  text-align: center; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: heavy;
+  vertical-align: baseline;
+}
+
+.subTitle {
+  color: white; 
+  text-align: center; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  vertical-align: baseline;
+}
+
+.green {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 35px;
+  text-decoration-line: none;
+  color: #2c4e30;
+  font-weight: 300;
+}
+
+.line {
+  border: 0.75px solid #8e8e8e;
+  width: 100%;
+}
+
+.main {
+  margin-right: 15%;
+  margin-left: 15%
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: #3f3f3f;
+  text-overflow: wrap;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 28px;
+  color: #2c4e30;
+  text-overflow: wrap;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-align: left;
+  font-size: 20px;
+  color: #3f3f3f;
+  text-overflow: wrap;
+}
+
+.aboutImgContainer {
+	background-color: #000000;
+	display: flex;
+	gap: 26px;
+	flex-wrap: wrap;
+  margin: 0px;
+  padding: 20px 20px 40px 20px;
+  justify-content: center;
+}
+
+.aboutImg {
+  height: 380px;
+  align-items: center;
+}
+
+.container {
+	width: 100%;
+	background-color: #ffffff;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.box {
+	width: 300px;
+	background-color: #2c4e30;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box img {
+	width: 100%;
+  border-radius: 5px;
+}
+
+.boxName {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-align: left;
+  font-size: 20px;
+  text-overflow: wrap;
+}
+
+.boxText {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: #ffffff;
+  text-overflow: wrap;
+}
+
+.container1 {
+	width: 100%;
+	background-color: #ffffff;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.box1 {
+	width: 300px;
+	background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box1 img {
+	width: 100%;
+  border-radius: 5px;
+}
+
+.box1Name {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 28px;
+  text-overflow: wrap;
+}
+
+.box1Text {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  text-overflow: wrap;
+}
+
+/* Typerwriter Title Effect on Home*/ 
+.typer {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 35px;
+  text-decoration-line: none;
+  color: #000000;
+  font-weight: 300;
+  text-overflow: wrap;
+  overflow: hidden;  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* margin: 0 auto;  Gives  scrolling effect as the typing happens, could add*/
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2c4e30; }
+}
+
+/* moving cards */
+.container {
+  position: relative;
+  width: 100%;
+  height: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-warp: warp;
+  padding: 100px;
+  background-color: #cbdfbf;
+}
+
+.container .card {
+  position: relative;
+  max-width: 360px;
+  height: 250px;  
+  background-color: #cbdfbf;
+  margin: 0px 50px;
+  padding: 0px 15px;
+  
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+  padding-top: 50px;
+  
+}
+
+.container .card:hover {
+  height: 550px;
+}
+
+.container .card .image {
+  position: relative;
+  width: 300px;
+  align-self: center;
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.container .card .image img {
+  max-width: 100%;
+  border-radius: 15px;
+  align-content: center;
+  align-self: center;
+}
+
+.container .card .content {
+  position: relative;
+  top: -240px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;   
+}
+
+.container .card:hover .content {
+   margin-top: 30px;
+   visibility: visible;
+   opacity: 1;
+   transition-delay: 0.2s;
+}
+
+.special {
+  padding-bottom: 75px;
+}
+
+.special1 {
+  padding-bottom: 200px;
+}
+
+/* Contact Form */
+.wrapper { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 350px; 
+    width: 100%; 
+    background: white; 
+    padding: 25px; 
+    border-radius: 5px; 
+    box-shadow: 4px 4px 2px
+        rgba(254, 236, 164, 1); 
+    margin-top: 100px;
+} 
+
+.wrapper h2 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    color: #2c4e30; 
+} 
+
+.wrapper .input_field { 
+    margin-bottom: 10px;
+    margin-right: 20px;
+} 
+
+.wrapper 
+    .input_field 
+    input[type="text"],
+.wrapper textarea { 
+    border: 1px solid #e0e0e0; 
+    width: 100%; 
+    padding: 10px;
+} 
+
+.wrapper textarea { 
+    resize: none; 
+    height: 80px; 
+}
+
+.wrapper .btn input[type="submit"] { 
+    border: 0px; 
+    margin-top: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    background: #569a4d; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+} 
+
+#error_message { 
+    margin-bottom: 20px; 
+    background: #fe8b8e; 
+    padding: 0px; 
+    text-align: center; 
+    font-size: 14px; 
+    transition: all 0.5s ease; 
+}
+
+.blockquote {
+  max-width: 90%;
+  margin: 10px 30px;
+  padding: 25px;
+  background: #eff5eb;
+  border: 2px solid #b6c8ab;
+  color: #2c4e30;
+  box-sizing: border-box;
+}
+
+.blockquote--bordered {
+  border-left-width: 10px;
+}
+
+.blockquote--quoted::before {
+  content: "\201c";
+  font-size: 100px;
+  font-family: 'Gelasio', serif;
+  color: #798572;
+  display: block;
+  margin-bottom: -40px;
+  margin-top: -20px;
+}
+
+.blockquote__text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.blockquote__text:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.blockquote__text--credit {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+.blockquote__text--credit::before {
+  content: "\2014\0020"
+}
+
+/* Figures */ 
+.countryRank {
+  width: 100%;
+  align-content: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* UL Lists */
+
+.section4-text ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.section4-text ul li p:first-of-type {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+h4 {
+  text-align: center;
+  color: #031c05;
+  font-size: 20pt;
+  margin-top: 10%;
+}
